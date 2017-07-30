@@ -1,0 +1,241 @@
+html{
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Monoton", cursive;
+
+}
+
+/* Navbar styling */
+
+.navbar{
+  background-color: white;
+}
+
+.navbar li a{
+  font-family: "Open Sans";
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-nav > .active > a {
+    color: #399bd1;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a:hover{
+  background-color: transparent;
+  color: #399bd1;
+}
+
+.navbar-default .navbar-nav >   a:hover{
+  color:#555;
+}
+/*logo dissapear in small screen*/
+@media screen and (max-width:768px){
+    .navbar-collapse{
+        display:none;
+    }
+}
+
+
+.jumbotron-bike{
+  background-image: url("../images/bike.jpg");
+/*  background-size: 100% 100%;
+  height:44rem;*/
+
+}
+
+.jumbotron-flowers{
+  background-image: url("../images/flowers.jpg");
+/*  background-size: 100% 100%;
+  height:44rem;*/
+
+}
+
+.jumbotron-beer{
+  background-image: url("../images/beer.jpg");
+/*  background-size: 100% 100%;
+  height:44rem;*/
+
+}
+
+.jumbotron-duffle{
+  background-image: url("../images/duffle.jpg");
+/*  background-size: 100% 100%;
+  height:44rem;*/
+
+}
+
+.jumbotron {
+  margin-top:0;
+    height: 44rem;
+   /*padding-top: 8rem;*/
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 11.85rem ;
+    padding-bottom: 11.85rem;
+}
+
+
+.jumbotron h1{
+  font-family: "Monoton", sans-serif;
+  font-size: 7.1rem;
+  color:white;
+  text-shadow: -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+
+}
+
+.jumbotron p{
+  color: white;
+  max-width: 51.3rem;
+  margin:auto;
+  text-shadow: -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+
+@media screen and(max-width:767px){
+  .jumbotron h1{
+    font-size: 5.7rem;
+   /* font-family: Monoton;
+    color:white;
+    text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;*/
+  }
+}
+
+@media only screen and (max-width: 550px){
+
+.jumbotron h1 {
+    font-size: 4rem;
+    font-family: "Monoton", sans-serif;
+    color:white;
+    text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+
+}
+}
+
+/*button styling*/
+
+/*.relative-wrapper {
+    position: relative;
+    top: -16rem;
+    width: 100%;
+    text-align: center;
+    font-family: "Open Sans";
+
+}*/
+
+
+ .btn-primary{
+
+  width: 11.4rem;
+  margin-top: 2.8rem;
+padding-top: 1.3rem;
+padding-bottom: 1.3rem;
+background-color: #399bd1;
+box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    transition: .5s box-shadow;
+}
+
+
+
+ .btn-primary:active{
+   box-shadow:0 0 0 rgba( 0, 0, 0, 0.5);
+}
+.btn-primary:hover {
+box-shadow: 0 0 12px rgba( 0, 0, 0 ,0.9);
+}
+
+
+
+/*Feature project /image-container section styleing*/
+
+.container  h2{
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
+  /*padding-top:20px;*/
+/*  padding-bottom:20px;*/
+}
+.container .row h3{
+  margin-top: 20px;
+}
+.feature-project .image-container{
+/*   height: 19rem;*/
+    margin-top: 20px;
+}
+
+.image-container{
+  overflow: hidden;
+}
+
+ .image-container img {
+    width: 100%;
+     opacity: 0.7;
+     transition: transform .5s, opacity .5s;
+}
+
+.image-container img:hover {
+  opacity: 1;
+  transform: scale(1.3);
+}
+
+.row h3{
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.feature-project .row p {
+  line-height: 1.4rem;
+  color: rgba( 0, 0, 0, 0.7);
+}
+.row .blue {
+  color:#399bd1;
+}
+
+
+
+/* projects section -styling*/
+.projects{
+  padding-bottom: 5.85rem;
+}
+
+
+.trouble{
+  padding-top:5.2rem;
+  padding-bottom:5.2rem;
+  background-color: #f3f3f3;
+    text-align: center;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.trouble h1{
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.4rem;
+}
+
+.trouble p{
+  margin:auto;
+  max-width: 42rem;
+}
+/*img {
+    vertical-align: middle;
+}
+
+img {
+    border: 0;
+}*/
